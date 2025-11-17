@@ -1,10 +1,5 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-# First example
+# https://github.com/TaroMilky/lab10-LI
+# Partner 1 and 2: Laurence Ipo (you guys did not assign me a partner :D)
 
 import math
 
@@ -14,7 +9,7 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
 def div(a, b):

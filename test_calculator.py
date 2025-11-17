@@ -1,3 +1,6 @@
+# https://github.com/TaroMilky/lab10-LI
+# Partner 1 and 2: Laurence Ipo (you guys did not assign me a partner :D)
+
 import unittest
 import calculator
 import math
@@ -15,9 +18,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.subtract(5, 10), -5)
 
     def test_multiply(self):
-        self.assertEqual(calculator.multiply(10, 5), 50)
-        self.assertEqual(calculator.multiply(-1, 1), -1)
-        self.assertEqual(calculator.multiply(5, 0), 0)
+        self.assertEqual(calculator.mul(10, 5), 50)
+        self.assertEqual(calculator.mul(-1, 1), -1)
+        self.assertEqual(calculator.mul(5, 0), 0)
 
     def test_divide(self):
         self.assertAlmostEqual(calculator.div(10, 5), 2)
